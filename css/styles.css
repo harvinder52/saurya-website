@@ -102,6 +102,7 @@ h6 {
 
 .testimonial-text {
 	font-style: italic;
+	color: white;
 }
 
 .testimonial-author {
@@ -148,7 +149,7 @@ a:hover {
 	color: #0092ff;
 }
 
-.bg-gray {
+.bg-greengradient {
 	background-color: #fcfafb;
 	background: linear-gradient(
 291deg, #ffd801, #3f6739);
@@ -542,6 +543,9 @@ a:hover {
 .cards-1 .card-icon.green .far {
 	color: #16c66d;
 }
+.card-body{
+	background-color: #3a5e35
+}
 
 .cards-1 .card-body {
 	padding: 0;
@@ -715,6 +719,7 @@ a:hover {
 	padding-top: 9.5rem;
 	padding-bottom: 2.25rem;
 	text-align: center;
+	border-bottom: 2px solid orange;
 }
 
 .cards-2 .h2-heading {
